@@ -1,0 +1,39 @@
+# Public repository: only these root files and folders are eligible for Git.
+# Add new project roots explicitly; local CVs, design notes and tool state stay private.
+/*
+!/.gitignore
+!/.gitattributes
+!/.nvmrc
+!/AGENTS.md
+!/CLAUDE.md
+!/README.md
+!/package.json
+!/package-lock.json
+!/next.config.ts
+!/next-env.d.ts
+!/eslint.config.mjs
+!/postcss.config.mjs
+!/tsconfig.json
+!/playwright.config.ts
+!/src/
+!/public/
+!/scripts/
+!/tests/
+
+# Also protect sensitive/generated files inside allowed folders.
+node_modules/
+.next/
+out/
+.vercel/
+.env*
+*.pem
+*.key
+*.p12
+*.pfx
+*.tsbuildinfo
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+test-results/
+playwright-report/

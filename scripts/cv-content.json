@@ -1,0 +1,533 @@
+{
+  "es": {
+    "footer": "William Burrión | Desarrollo de software",
+    "title": "William Burrión - CV en español",
+    "items": [
+      {
+        "style": "NameCV",
+        "text": "William Burrión"
+      },
+      {
+        "style": "RoleCV",
+        "text": "Desarrollador senior full-stack"
+      },
+      {
+        "style": "MetaCV",
+        "text": "Guatemala | <link href=\"mailto:william.burrion@gmail.com\" color=\"#b94035\">william.burrion@gmail.com</link>"
+      },
+      {
+        "style": "MetaCV",
+        "text": "<link href=\"https://www.linkedin.com/in/william-burri%C3%B3n-b99644255/\" color=\"#b94035\">LinkedIn: William Burrión</link>"
+      },
+      {
+        "style": "SectionCV",
+        "text": "Perfil profesional"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Desarrollador full-stack con cinco años de experiencia en aplicaciones web y móviles, automatización mediante bots, integración de APIs y operaciones en la nube. Experiencia con clientes de Norteamérica y Latinoamérica. Trabajo con JavaScript/TypeScript, Node.js, React Native, Angular, PHP/Laravel y el ecosistema .NET, además de AWS y GCP."
+      },
+      {
+        "style": "SectionCV",
+        "text": "Experiencia profesional"
+      },
+      {
+        "style": "JobCV",
+        "text": "Programador senior | Corporación Alisa"
+      },
+      {
+        "style": "MetaCV",
+        "text": "Febrero de 2026 - actualidad"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Desarrollo de aplicaciones móviles para iOS y Android con React Native, aplicaciones de escritorio y sistemas administrativos. Construcción de servicios con Node.js y Express, y gestión de datos con SQL Server y PostgreSQL."
+      },
+      {
+        "style": "BodyCV",
+        "text": "Despliegues en AWS, automatización de CI/CD y modernización de sistemas PHP. Mentoría técnica, revisiones de código y promoción de Clean Architecture y principios SOLID."
+      },
+      {
+        "style": "JobCV",
+        "text": "Especialista en desarrollo de bots | iSoft-ste"
+      },
+      {
+        "style": "MetaCV",
+        "text": "Junio de 2022 - junio de 2026"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Desarrollo de bots para Facebook y WhatsApp, aplicaciones web y móviles con Angular y Node.js, e integración con sistemas de clientes mediante APIs."
+      },
+      {
+        "style": "BodyCV",
+        "text": "Construcción de una plataforma de creación de bots, operación de servicios en GCP con Docker, Firebase y Cloud Functions, y desarrollo de reportes y documentación técnica."
+      },
+      {
+        "style": "JobCV",
+        "text": "Programador full-stack | Plani-go"
+      },
+      {
+        "style": "MetaCV",
+        "text": "Mayo de 2021 - mayo de 2022"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Sistemas web con PHP, Laravel y MySQL, y aplicaciones móviles con React Native. Desarrollo de portales para residentes y administradores, mantenimiento de aplicaciones Android y control de limpieza con QR."
+      },
+      {
+        "style": "SectionCV",
+        "text": "Tecnologías principales"
+      },
+      {
+        "style": "BodyCV",
+        "text": "<b>Interfaces:</b> React, React Native, Angular, TypeScript, Expo, HTML y CSS.<br/><b>Servicios y datos:</b> Node.js, Express, Laravel, C#/.NET, SQL Server, MySQL, PostgreSQL, MongoDB y Redis.<br/><b>Cloud y arquitectura:</b> AWS, GCP, Firebase, Docker, CI/CD, microservicios, SOLID y DDD."
+      },
+      {
+        "break": true
+      },
+      {
+        "style": "NameCV",
+        "text": "Proyectos y formación"
+      },
+      {
+        "style": "SectionCV",
+        "text": "Proyectos destacados"
+      },
+      {
+        "style": "JobCV",
+        "text": "Gestión de edificios y residenciales"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Arquitectura y desarrollo de una plataforma con PHP/Laravel para la administración de propiedades. Módulos de facturación, control de accesos y mantenimiento, junto con portales para residentes y administradores."
+      },
+      {
+        "style": "JobCV",
+        "text": "Motor de bots y web services"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Automatización multicanal e integraciones mediante web services para conectar la atención en redes sociales con sistemas corporativos. Trabajo en escalabilidad y operación de los servicios."
+      },
+      {
+        "style": "JobCV",
+        "text": "Ecosistema ERP y aplicaciones corporativas"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Desarrollo full-stack de aplicaciones web y móviles con React Native, TypeScript, Node.js y PostgreSQL sobre AWS. Integración de IA en procesos internos y una plataforma de pedidos/pickup."
+      },
+      {
+        "style": "SectionCV",
+        "text": "Formación"
+      },
+      {
+        "style": "JobCV",
+        "text": "Akamonkai Japanese Language School | Tokio, Japón"
+      },
+      {
+        "style": "MetaCV",
+        "text": "Abril - septiembre de 2025"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Curso intensivo de japonés. Nivel de japonés N4."
+      },
+      {
+        "style": "JobCV",
+        "text": "Universidad Mariano Gálvez | Guatemala"
+      },
+      {
+        "style": "MetaCV",
+        "text": "2021 - 2022"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Dos años cursados de Ingeniería en Ciencias de la Computación."
+      },
+      {
+        "style": "JobCV",
+        "text": "Liceo Compu-Market | Guatemala"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Bachillerato en Computación, 2020. Abanderado por desempeño académico."
+      },
+      {
+        "style": "SectionCV",
+        "text": "Cursos e idiomas"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Unity Game Development, Udemy (2023).<br/>Deep Learning &amp; Artificial Intelligence, Udemy (2023)."
+      },
+      {
+        "style": "BodyCV",
+        "text": "<b>Idiomas:</b> español; inglés A2; japonés N4."
+      },
+      {
+        "style": "SectionCV",
+        "text": "Intereses técnicos"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Desarrollo de videojuegos con Unity y C#, automatización, arquitectura de software y aplicaciones multiplataforma."
+      }
+    ]
+  },
+  "en": {
+    "footer": "William Burrión | Software development",
+    "title": "William Burrión - English CV",
+    "items": [
+      {
+        "style": "NameCV",
+        "text": "William Burrión"
+      },
+      {
+        "style": "RoleCV",
+        "text": "Senior full-stack developer"
+      },
+      {
+        "style": "MetaCV",
+        "text": "Guatemala | <link href=\"mailto:william.burrion@gmail.com\" color=\"#b94035\">william.burrion@gmail.com</link>"
+      },
+      {
+        "style": "MetaCV",
+        "text": "<link href=\"https://www.linkedin.com/in/william-burri%C3%B3n-b99644255/\" color=\"#b94035\">LinkedIn: William Burrión</link>"
+      },
+      {
+        "style": "SectionCV",
+        "text": "Professional profile"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Full-stack developer with five years of experience in web and mobile applications, bot automation, API integration and cloud operations. Experience working with clients in North and Latin America. My toolkit includes JavaScript/TypeScript, Node.js, React Native, Angular, PHP/Laravel, the .NET ecosystem, AWS and GCP."
+      },
+      {
+        "style": "SectionCV",
+        "text": "Professional experience"
+      },
+      {
+        "style": "JobCV",
+        "text": "Senior developer | Corporación Alisa"
+      },
+      {
+        "style": "MetaCV",
+        "text": "February 2026 - present"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Development of iOS and Android applications with React Native, desktop applications and administrative systems. Services built with Node.js and Express, with data managed in SQL Server and PostgreSQL."
+      },
+      {
+        "style": "BodyCV",
+        "text": "AWS deployments, CI/CD automation and modernization of PHP systems. Technical mentoring, code reviews and adoption of Clean Architecture and SOLID principles."
+      },
+      {
+        "style": "JobCV",
+        "text": "Bot development specialist | iSoft-ste"
+      },
+      {
+        "style": "MetaCV",
+        "text": "June 2022 - June 2026"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Development of Facebook and WhatsApp bots, web and mobile applications with Angular and Node.js, and API integrations with client systems."
+      },
+      {
+        "style": "BodyCV",
+        "text": "Development of a bot-building platform, GCP operations using Docker, Firebase and Cloud Functions, and preparation of reports and technical documentation."
+      },
+      {
+        "style": "JobCV",
+        "text": "Full-stack developer | Plani-go"
+      },
+      {
+        "style": "MetaCV",
+        "text": "May 2021 - May 2022"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Web systems with PHP, Laravel and MySQL, and mobile applications with React Native. Resident and administrator portals, Android application maintenance and QR-based cleaning management."
+      },
+      {
+        "style": "SectionCV",
+        "text": "Core technologies"
+      },
+      {
+        "style": "BodyCV",
+        "text": "<b>Interfaces:</b> React, React Native, Angular, TypeScript, Expo, HTML and CSS.<br/><b>Services and data:</b> Node.js, Express, Laravel, C#/.NET, SQL Server, MySQL, PostgreSQL, MongoDB and Redis.<br/><b>Cloud and architecture:</b> AWS, GCP, Firebase, Docker, CI/CD, microservices, SOLID and DDD."
+      },
+      {
+        "break": true
+      },
+      {
+        "style": "NameCV",
+        "text": "Projects and education"
+      },
+      {
+        "style": "SectionCV",
+        "text": "Selected projects"
+      },
+      {
+        "style": "JobCV",
+        "text": "Building and residential management"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Architecture and development of a PHP/Laravel property-management platform. Billing, access control and maintenance modules, together with resident and administrator portals."
+      },
+      {
+        "style": "JobCV",
+        "text": "Bot engine and web services"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Multichannel automation and web-service integrations connecting social-media support with corporate systems. Work on service scalability and operations."
+      },
+      {
+        "style": "JobCV",
+        "text": "ERP ecosystem and corporate applications"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Full-stack web and mobile development with React Native, TypeScript, Node.js and PostgreSQL on AWS. AI integration into internal processes and an ordering/pickup platform."
+      },
+      {
+        "style": "SectionCV",
+        "text": "Education"
+      },
+      {
+        "style": "JobCV",
+        "text": "Akamonkai Japanese Language School | Tokyo, Japan"
+      },
+      {
+        "style": "MetaCV",
+        "text": "April - September 2025"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Intensive Japanese course. Japanese proficiency at N4 level."
+      },
+      {
+        "style": "JobCV",
+        "text": "Universidad Mariano Gálvez | Guatemala"
+      },
+      {
+        "style": "MetaCV",
+        "text": "2021 - 2022"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Completed two years of Computer Science Engineering studies."
+      },
+      {
+        "style": "JobCV",
+        "text": "Liceo Compu-Market | Guatemala"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Secondary school diploma in Computing, 2020. Selected as flag bearer for academic achievement."
+      },
+      {
+        "style": "SectionCV",
+        "text": "Courses and languages"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Unity Game Development, Udemy (2023).<br/>Deep Learning &amp; Artificial Intelligence, Udemy (2023)."
+      },
+      {
+        "style": "BodyCV",
+        "text": "<b>Languages:</b> Spanish; English A2; Japanese N4."
+      },
+      {
+        "style": "SectionCV",
+        "text": "Technical interests"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Game development with Unity and C#, automation, software architecture and cross-platform applications."
+      }
+    ]
+  },
+  "ja": {
+    "footer": "William Burrión | ソフトウェア開発",
+    "title": "William Burrión - 職務経歴書",
+    "items": [
+      {
+        "style": "NameCV",
+        "text": "William Burrión"
+      },
+      {
+        "style": "RoleCV",
+        "text": "シニアフルスタックエンジニア"
+      },
+      {
+        "style": "MetaCV",
+        "text": "グアテマラ | <link href=\"mailto:william.burrion@gmail.com\" color=\"#b94035\">william.burrion@gmail.com</link>"
+      },
+      {
+        "style": "MetaCV",
+        "text": "<link href=\"https://www.linkedin.com/in/william-burri%C3%B3n-b99644255/\" color=\"#b94035\">LinkedIn: William Burrión</link>"
+      },
+      {
+        "style": "SectionCV",
+        "text": "職務要約"
+      },
+      {
+        "style": "BodyCV",
+        "text": "ウェブ・モバイルアプリ開発、ボットによる自動化、API連携、クラウド運用で5年の経験を持つフルスタックエンジニア。北米・中南米の顧客との業務経験があります。JavaScript/TypeScript、Node.js、React Native、Angular、PHP/Laravel、.NET、AWS、GCPを使用しています。"
+      },
+      {
+        "style": "SectionCV",
+        "text": "職務経歴"
+      },
+      {
+        "style": "JobCV",
+        "text": "シニアエンジニア | Corporación Alisa"
+      },
+      {
+        "style": "MetaCV",
+        "text": "2026年2月 - 現在"
+      },
+      {
+        "style": "BodyCV",
+        "text": "React NativeによるiOS・Androidアプリ、デスクトップアプリ、管理システムを開発。Node.jsとExpressでサービスを構築し、SQL ServerとPostgreSQLでデータを管理。"
+      },
+      {
+        "style": "BodyCV",
+        "text": "AWSへのデプロイ、CI/CDの自動化、PHPシステムの刷新を担当。技術的なメンタリング、コードレビュー、Clean ArchitectureとSOLID原則の導入に取り組む。"
+      },
+      {
+        "style": "JobCV",
+        "text": "ボット開発スペシャリスト | iSoft-ste"
+      },
+      {
+        "style": "MetaCV",
+        "text": "2022年6月 - 2026年6月"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Facebook・WhatsApp向けボット、AngularとNode.jsによるウェブ・モバイルアプリを開発。APIを通じて顧客システムと連携。"
+      },
+      {
+        "style": "BodyCV",
+        "text": "ボット作成プラットフォームを開発。Docker、Firebase、Cloud Functionsを用いたGCPのサービス運用、レポートと技術文書の作成を担当。"
+      },
+      {
+        "style": "JobCV",
+        "text": "フルスタックエンジニア | Plani-go"
+      },
+      {
+        "style": "MetaCV",
+        "text": "2021年5月 - 2022年5月"
+      },
+      {
+        "style": "BodyCV",
+        "text": "PHP、Laravel、MySQLによるウェブシステムと、React Nativeによるモバイルアプリを開発。居住者・管理者向けポータル、Androidアプリの保守、QRコードによる清掃管理に携わる。"
+      },
+      {
+        "style": "SectionCV",
+        "text": "主な技術"
+      },
+      {
+        "style": "BodyCV",
+        "text": "<b>フロントエンド:</b> React、React Native、Angular、TypeScript、Expo、HTML、CSS。<br/><b>サービス・データ:</b> Node.js、Express、Laravel、C#/.NET、SQL Server、MySQL、PostgreSQL、MongoDB、Redis。<br/><b>クラウド・設計:</b> AWS、GCP、Firebase、Docker、CI/CD、マイクロサービス、SOLID、DDD。"
+      },
+      {
+        "break": true
+      },
+      {
+        "style": "NameCV",
+        "text": "プロジェクト・学歴"
+      },
+      {
+        "style": "SectionCV",
+        "text": "主なプロジェクト"
+      },
+      {
+        "style": "JobCV",
+        "text": "ビル・住宅コミュニティ管理"
+      },
+      {
+        "style": "BodyCV",
+        "text": "PHP/Laravelによる不動産管理プラットフォームの設計・開発。請求、入退室管理、保守の各モジュールと、居住者・管理者向けポータルを構築。"
+      },
+      {
+        "style": "JobCV",
+        "text": "ボットエンジンとウェブサービス"
+      },
+      {
+        "style": "BodyCV",
+        "text": "SNSでの顧客対応を企業システムにつなぐ、マルチチャネルの自動化とウェブサービス連携。サービスの拡張性と運用に取り組む。"
+      },
+      {
+        "style": "JobCV",
+        "text": "ERPと社内アプリケーション"
+      },
+      {
+        "style": "BodyCV",
+        "text": "React Native、TypeScript、Node.js、PostgreSQL、AWSを用いたウェブ・モバイルのフルスタック開発。社内業務へのAI連携と、注文・店頭受取プラットフォームの開発。"
+      },
+      {
+        "style": "SectionCV",
+        "text": "学歴・研修"
+      },
+      {
+        "style": "JobCV",
+        "text": "赤門会日本語学校 | 東京・日本"
+      },
+      {
+        "style": "MetaCV",
+        "text": "2025年4月 - 9月"
+      },
+      {
+        "style": "BodyCV",
+        "text": "日本語集中コース。日本語はN4相当のレベル。"
+      },
+      {
+        "style": "JobCV",
+        "text": "Universidad Mariano Gálvez | グアテマラ"
+      },
+      {
+        "style": "MetaCV",
+        "text": "2021 - 2022"
+      },
+      {
+        "style": "BodyCV",
+        "text": "コンピュータサイエンス工学を2年間履修。"
+      },
+      {
+        "style": "JobCV",
+        "text": "Liceo Compu-Market | グアテマラ"
+      },
+      {
+        "style": "BodyCV",
+        "text": "コンピューティング分野の高校課程を2020年に修了。学業成績により旗手に選出。"
+      },
+      {
+        "style": "SectionCV",
+        "text": "受講コース・語学"
+      },
+      {
+        "style": "BodyCV",
+        "text": "Unity Game Development, Udemy (2023).<br/>Deep Learning &amp; Artificial Intelligence, Udemy (2023)."
+      },
+      {
+        "style": "BodyCV",
+        "text": "<b>語学:</b> スペイン語、英語A2、日本語N4相当。"
+      },
+      {
+        "style": "SectionCV",
+        "text": "技術的な関心"
+      },
+      {
+        "style": "BodyCV",
+        "text": "UnityとC#によるゲーム開発、自動化、ソフトウェアアーキテクチャ、クロスプラットフォームアプリ。"
+      }
+    ]
+  }
+}

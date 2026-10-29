@@ -47,7 +47,7 @@ export const experience = [
 export const social = {
   email: 'william.burrion@gmail.com',
   linkedin: 'https://www.linkedin.com/in/william-burri%C3%B3n-b99644255/',
-  github: '', // Add a verified profile URL to display the GitHub link.
+  github: 'https://github.com/QPWilliam',
 };
 
 export { projects } from './project-catalog';

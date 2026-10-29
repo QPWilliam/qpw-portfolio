@@ -1,6 +1,6 @@
 import type { Locale } from './i18n';
 export type DemoId = 'residence' | 'bots' | 'erp';
-export type ProjectId = 'core' | 'pioapp' | 'pinulito' | 'scanlearn' | 'chatmenu' | 'proferre' | 'portfolio';
+export type ProjectId = 'core' | 'pioapp' | 'pinulito' | 'scanlearn' | 'chatmenu' | 'proferre' | 'explicamelofacil' | 'portfolio';
 export type PhoneScreen = ProjectId | DemoId;
 export type DemoProject = {
   id: DemoId;
@@ -29,19 +29,19 @@ export const demoProjects: DemoProject[] = [
 ];
 export const experience = [
   { company: 'Plani-go', period: '2021 - 2022', tech: 'PHP / Laravel / MySQL / React Native', content: {
-    es: { role: 'Programador full-stack', title: 'Construir de principio a fin.', body: 'Aplicaciones web y móviles para residentes y administradores. Participé en el diseño de bases de datos, la revisión de código y la digitalización de procesos con QR.' },
-    en: { role: 'Full-stack developer', title: 'Building from start to finish.', body: 'Web and mobile applications for residents and administrators. I worked on database design, code reviews and digitizing processes with QR codes.' },
-    ja: { role: 'フルスタック開発者', title: '最初から最後まで作る。', body: '居住者と管理者向けのウェブ・モバイルアプリを開発。データベース設計、コードレビュー、QRコードによる業務のデジタル化に携わりました。' },
+    es: { role: 'Programador full-stack', title: 'Construir de principio a fin.', body: 'Aplicaciones web y móviles para residentes y administradores. Diseñé bases de datos, revisé código y creé una app con QR para el personal de limpieza que reemplazó las hojas de firma en papel y alimentaba asistencia y planilla.' },
+    en: { role: 'Full-stack developer', title: 'Building from start to finish.', body: 'Web and mobile applications for residents and administrators. I designed databases, reviewed code and built a QR-based cleaning-staff app that replaced paper sign-in sheets and fed attendance and payroll.' },
+    ja: { role: 'フルスタック開発者', title: '最初から最後まで作る。', body: '居住者と管理者向けのウェブ・モバイルアプリを開発。データベース設計とコードレビューを担当し、紙の出勤表に代わるQRコード式の清掃スタッフ用アプリで勤怠と給与計算につなげました。' },
   } },
-  { company: 'iSoft-ste', period: '2022 - 2026', tech: 'Angular / Node.js / APIs / Google Cloud', content: {
-    es: { role: 'Especialista en desarrollo de bots', title: 'Conectar sistemas y conversaciones.', body: 'Amplié mi trabajo hacia bots de Facebook y WhatsApp, integraciones con sistemas de clientes y una plataforma de creación de bots. También gestioné servicios en GCP.' },
-    en: { role: 'Bot development specialist', title: 'Connecting systems and conversations.', body: 'My work expanded into Facebook and WhatsApp bots, client system integrations and a bot-building platform. I also managed services on GCP.' },
-    ja: { role: 'ボット開発スペシャリスト', title: 'システムと会話をつなぐ。', body: 'FacebookやWhatsAppのボット、顧客システムとの連携、ボット作成プラットフォームへと仕事の幅が広がりました。GCPのサービス管理も担当しました。' },
+  { company: 'iSoft-ste', period: '2022 - 2026', tech: 'Angular / Node.js / Express / Google Cloud / Firebase / Docker', content: {
+    es: { role: 'Especialista en desarrollo de bots', title: 'Conectar sistemas y conversaciones.', body: 'Levanté requisitos directamente con clientes empresariales y construí bots de WhatsApp y Facebook con sus sistemas de tickets. Creé una plataforma interna de bots en Angular y Node.js conectada por APIs a cada cliente, y operé los servicios en Google Cloud.' },
+    en: { role: 'Bot development specialist', title: 'Connecting systems and conversations.', body: 'I ran requirements sessions directly with enterprise clients and built WhatsApp and Facebook bots with their ticketing systems. I created an in-house bot platform in Angular and Node.js, connected to each client over APIs, and ran the services on Google Cloud.' },
+    ja: { role: 'ボット開発スペシャリスト', title: 'システムと会話をつなぐ。', body: '企業のお客様と直接要件をまとめ、WhatsAppやFacebookのボットとチケット管理システムを開発。AngularとNode.jsで社内のボット作成基盤を作り、APIで各社のシステムとつなぎ、Google Cloudで運用しました。' },
   } },
-  { company: 'Corporación Alisa', period: '2026', tech: 'React Native / Node.js / PostgreSQL / AWS', content: {
-    es: { role: 'Programador senior', title: 'Pensar en el producto y el equipo.', body: 'Desarrollo aplicaciones y servicios, participo en decisiones de arquitectura y acompaño al equipo con mentoría y revisiones de código. Trabajo en automatización de despliegues y modernización de sistemas.' },
-    en: { role: 'Senior developer', title: 'Thinking about the product and the team.', body: 'I develop applications and services, contribute to architecture decisions and support the team through mentoring and code reviews. I work on deployment automation and system modernization.' },
-    ja: { role: 'シニア開発者', title: 'プロダクトとチームを考える。', body: 'アプリとサービスを開発し、設計の意思決定に参加。メンタリングとコードレビューでチームを支えながら、デプロイの自動化とシステムの刷新に取り組んでいます。' },
+  { company: 'Corporación Alisa', period: '2026', tech: 'React Native / Node.js / PostgreSQL / AWS / SAP Business One / Stripe', content: {
+    es: { role: 'Senior developer / Líder de desarrollo', title: 'Pensar en el producto y el equipo.', body: 'Lideré desde cero la app interna para ~10.000 empleados, la app de oficinas centrales integrada con SAP Business One y una app de pedidos para millones de usuarios. Digitalizar la contabilidad redujo un proceso de dos meses a dos días y los pedidos anticipados recortaron un 80 % la espera en tienda.' },
+    en: { role: 'Senior developer / Development lead', title: 'Thinking about the product and the team.', body: 'I led, from scratch, the internal app for ~10,000 employees, the head-office app integrated with SAP Business One and an ordering app serving millions of users. Digitising accounting cut a two-month process to two days, and order-ahead pickup reduced in-store waiting by 80%.' },
+    ja: { role: 'シニア開発者 / 開発リーダー', title: 'プロダクトとチームを考える。', body: '約1万人の従業員向け社内アプリ、SAP Business Oneと連携した本社向けアプリ、数百万人が使う注文アプリをゼロから開発しました。経理のデジタル化で2か月かかっていた業務を2日に短縮し、事前注文で店頭の待ち時間を80%削減しました。' },
   } },
 ];
 export const social = {

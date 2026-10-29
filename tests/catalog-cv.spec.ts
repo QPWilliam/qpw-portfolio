@@ -3,7 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 
 test('catalog keeps Core and PioApp separate and filters professional and personal work', async ({ page }) => {
   await page.goto('/es');
-  await expect(page.locator('.project-trigger')).toHaveCount(7);
+  await expect(page.locator('.project-trigger')).toHaveCount(8);
   const filters = page.getByRole('group', { name: 'Filtrar proyectos' });
   await filters.getByRole('button', { name: /Alisa/ }).click();
   await expect(page.locator('.project-trigger')).toHaveCount(3);
@@ -11,7 +11,7 @@ test('catalog keeps Core and PioApp separate and filters professional and person
   await page.getByTestId('project-pioapp').click();
   await expect(page.getByTestId('work-phone').getByRole('heading', { name: 'PioApp', exact: true })).toBeVisible();
   await filters.getByRole('button', { name: /Personales/ }).click();
-  await expect(page.locator('.project-trigger')).toHaveCount(4);
+  await expect(page.locator('.project-trigger')).toHaveCount(5);
   await expect(page.getByTestId('work-phone').getByRole('heading', { name: 'ScanLearn', exact: true })).toBeVisible();
 });
 
@@ -19,7 +19,7 @@ test('every project opens in the phone with functional features and architecture
   await page.goto('/es');
   await page.emulateMedia({ reducedMotion: 'reduce' });
   const phone = page.getByTestId('work-phone');
-  for (const id of ['core', 'pioapp', 'pinulito', 'scanlearn', 'chatmenu', 'proferre', 'portfolio']) {
+  for (const id of ['core', 'pioapp', 'pinulito', 'scanlearn', 'chatmenu', 'proferre', 'explicamelofacil', 'portfolio']) {
     await page.getByTestId(`project-${id}`).click();
     await expect(phone.locator('.project-case')).toBeVisible();
     await expect(phone.locator('.case-feature')).toHaveCount(3);

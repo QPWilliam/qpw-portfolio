@@ -518,6 +518,91 @@ export const projects: Project[] = [
     }
   },
   {
+    "id": "explicamelofacil",
+    "name": "Explícamelo Fácil",
+    "group": "personal",
+    "tags": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL"
+    ],
+    "logo": null,
+    "tone": "explicamelo",
+    "content": {
+      "es": {
+        "short": "Explícamelo Fácil",
+        "title": "Varias webs, un solo código.",
+        "category": "PLATAFORMA MULTI-SITIO",
+        "summary": "Plataforma de contenido que sirve varias webs independientes —marcas, idiomas y diseños distintos— desde una sola base de datos y un solo despliegue. En producción: Explícamelo Fácil, en español, y No Landmarks, en inglés y español.",
+        "role": "Diseño y desarrollo completo: modelo de datos multi-inquilino, internacionalización con hreflang, editor propio, generación de imágenes, SEO técnico, despliegue y DNS.",
+        "status": "En producción, dos sitios",
+        "architecture": "Un registro de sitios define marca, idiomas, tema y secciones, y una variable de entorno elige cuál se construye, así que un mismo repositorio despliega dos webs distintas. El filtro por sitio vive en la capa de datos y la caché se invalida por etiquetas.",
+        "features": [
+          {
+            "title": "Multi-inquilino sin fugas",
+            "body": "Cada artículo lleva sitio e idioma, y el filtro se aplica en la capa de datos, no en las páginas. Una página nueva no puede saltárselo porque nunca llega a escribirlo."
+          },
+          {
+            "title": "Dos idiomas, un solo contenido",
+            "body": "El idioma principal va en la raíz del dominio y el secundario bajo prefijo. Las traducciones se enlazan por una clave común y las etiquetas hreflang se generan solas."
+          },
+          {
+            "title": "Publicar sin desplegar",
+            "body": "El contenido vive en la base de datos y la caché se invalida por etiquetas, así que una guía nueva aparece en segundos sin recompilar el sitio."
+          }
+        ]
+      },
+      "en": {
+        "short": "Explícamelo Fácil",
+        "title": "Many sites, one codebase.",
+        "category": "MULTI-SITE PLATFORM",
+        "summary": "A content platform running several independent sites — different brands, languages and visual identities — from a single database and a single deployment pipeline. Live: Explícamelo Fácil in Spanish, and No Landmarks in English and Spanish.",
+        "role": "End-to-end design and development: multi-tenant data model, internationalisation with hreflang, a custom editor, generated imagery, technical SEO, deployment and DNS.",
+        "status": "Live, two sites",
+        "architecture": "A site registry defines brand, locales, theme and sections, and an environment variable picks which one is built, so one repository ships two different sites. Site scoping lives in the data layer and caching is invalidated by tags.",
+        "features": [
+          {
+            "title": "Leak-proof multi-tenancy",
+            "body": "Every article carries its site and locale, and the filter is applied in the data layer rather than in the pages. A new page cannot skip it, because it never gets to write it."
+          },
+          {
+            "title": "Two languages, one source",
+            "body": "The primary locale sits at the domain root and the secondary under a prefix. Translations are linked by a shared key and hreflang tags are emitted automatically."
+          },
+          {
+            "title": "Publishing without deploying",
+            "body": "Content lives in the database and caches are invalidated by tag, so a new guide appears within seconds without rebuilding the site."
+          }
+        ]
+      },
+      "ja": {
+        "short": "Explícamelo Fácil",
+        "title": "ひとつのコードで、複数のサイトを。",
+        "category": "マルチサイト基盤",
+        "summary": "ブランドも言語もデザインも異なる複数のサイトを、ひとつのデータベースとひとつのデプロイで動かす基盤です。現在はスペイン語のExplícamelo Fácilと、英語・スペイン語のNo Landmarksが稼働しています。",
+        "role": "設計から開発まで担当。マルチテナントのデータ設計、hreflangを含む多言語対応、独自の編集画面、画像の自動生成、技術的SEO、デプロイとDNS。",
+        "status": "本番稼働・2サイト",
+        "architecture": "サイト登録情報がブランド・言語・テーマ・セクションを定義し、環境変数でどのサイトを構築するかを選びます。ひとつのリポジトリから別々のサイトを配信でき、サイトの絞り込みはデータ層、キャッシュはタグ単位で管理します。",
+        "features": [
+          {
+            "title": "混ざらないマルチテナント",
+            "body": "記事ごとにサイトと言語を持ち、絞り込みはページではなくデータ層で適用します。新しいページが書き忘れること自体が起こりません。"
+          },
+          {
+            "title": "2言語をひとつの仕組みで",
+            "body": "主言語はドメイン直下、第二言語はプレフィックス配下に配置。翻訳は共通のキーで結び付き、hreflangは自動で出力されます。"
+          },
+          {
+            "title": "デプロイなしで公開",
+            "body": "記事はデータベースにあり、キャッシュはタグで無効化されます。新しい記事は再ビルドなしで数秒後に公開されます。"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "portfolio",
     "name": "Tinta y píxel",
     "group": "personal",

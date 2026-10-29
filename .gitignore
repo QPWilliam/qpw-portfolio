@@ -21,6 +21,7 @@
 !/tests/
 
 # Also protect sensitive/generated files inside allowed folders.
+/private/
 node_modules/
 .next/
 out/
